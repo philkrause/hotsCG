@@ -1,0 +1,305 @@
+#!/usr/bin/env bash
+
+clear
+echo -n "1.Abathur 2. Alarak 3. Anub'Arak 4.Artanis 5. Arthas 
+6.  Auriel  7. Azomadan 8. Brightwing 9. Cassia 10. Chen 
+11. Cho'gall 12. Chromie 13. Dehaka 14. Diablo 15. D.Va
+16. E.T.C. 17. Falstad 18. Gazlowe 19. Garrosh 20. Genji
+21. Greymane 22. Gul'dan 23. Illidan 24. Jaina 25. Johanna
+26. Kael'thas 27. Kel'Thuzad 28. Kerrigan 29. Kharazim 30. Leoric
+31. Li Li 32. Li Ming 33. Lt. Morales 34. Lunara 35. Malfurion
+36. Malthael 37. Medivh 38. Muradin 39. Murkey 40. Nazeebo
+41. Nova 42. Probius 43. Ragnaros 44. Raynor. 45. Rehgar
+46. Rexxar 47. Samuro 48. Sgt. Hammer 49. Sonya 50. Stitches 
+51. Stukov 52. Slyvanas 53. Tassadar 54. The Butcher 55. The Lost Vikings 
+56. Thrall 57. Tracer 58. Tychus 59. Tyrael 60. Tyrande 
+61. Uther 62. Vallera 63. Valla. 64. Varian 65. Xul
+66. Zagara 67. Zarya 68. Zeratul 69. Zul'jin
+ 
+Enter your Hero: "
+read HERO
+
+														
+if [ "$HERO" = "1" ]
+then
+	echo "The best counter to Hero $HERO : Nova, Zeratul, Samuro, Medivhn" 	
+fi
+if [ "$HERO" = "2" ]
+then
+        echo "The best counter to Hero $HERO : Lunara, Malfurion, Nazeebo, Rexxarn"
+fi
+if [ "$HERO" = "3" ]
+then
+        echo "The best counter to Hero $HERO : Muradin, Lunara, Zarya, Tychus"
+fi
+if [ "$HERO" = "4" ]
+then
+        echo "The best counter to Hero $HERO : Tychus, Li Ming, Brightwing, Malfurion"
+fi
+if [ "$HERO" = "5" ]
+then
+        echo "The best counter to Hero $HERO : Tychus, Varian, The Butcher, Lunara"
+fi
+if [ "$HERO" = "6" ]
+then
+        echo "The best counter to Hero $HERO : Nova, Chen, Gul'dan, Tracer"
+fi
+if [ "$HERO" = "7" ]
+then
+        echo "The best counter to Hero $HERO : Kerrigan, Thrall, Tychus, The Butcher"
+fi
+if [ "$HERO" = "8" ]
+then
+        echo "The best counter to Hero $HERO : Lunara, Gul'dan, Nova, Li Ming"
+fi
+if [ "$HERO" = "9" ]
+then
+        echo "The best counter to Hero $HERO : Arthas, Malfurion, Gul'dan, Nazeebo, Kael'thasn"
+fi
+if [ "$HERO" = "10" ]
+then
+        echo "The best counter to Hero $HERO : Sonya, Dehaka, Brightwing"
+fi
+if [ "$HERO" = "11" ]
+then
+        echo "The best counter to Hero $HERO : Brightwing, Illidan, Tychus"
+fi
+if [ "$HERO" = "12" ]
+then
+        echo "The best counter to Hero $HERO : Nova, Zeratul, Illidan, Anub'arak"
+fi
+if [ "$HERO" = "13" ]
+then
+        echo "The best counter to Hero $HERO : Zarya, The Butcher, Rexxar, Samuro"
+fi
+if [ "$HERO" = "14" ]
+then
+        echo "The best counter to Hero $HERO : Cho'gall, Valla, Illidan, Raynor "
+fi
+if [ "$HERO" = "15" ]
+then
+        echo "The best counter to Hero $HERO : Malthael, Tychus, Arthas, Lunara"
+fi
+if [ "$HERO" = "16" ]
+then
+        echo "The best counter to Hero $HERO : Raynor, Brightwing, Stukov, Tychus, Valla "
+fi
+if [ "$HERO" = "17" ]
+then
+        echo "The best counter to Hero $HERO : Kerrigan, Nova, Zeratul, Gul'dan"
+fi
+if [ "$HERO" = "18" ]
+then
+        echo "The best counter to Hero $HERO : Gul'dan, Artanis, Cho'gall, Nova"
+fi
+if [ "$HERO" = "19" ]
+then
+        echo "The best counter to Hero $HERO : Chromie, Li Ming, Genji, Zagara, Zul'jin"
+fi
+if [ "$HERO" = "20" ]
+then
+        echo "The best counter to Hero $HERO : Jaina, The Butcher, Varian, Nazeebo"
+fi
+if [ "$HERO" = "21" ]
+then
+        echo "The best counter to Hero $HERO : Brightwing, Raynor, Thrall, Rexxar"
+fi
+if [ "$HERO" = "22" ]
+then
+        echo "The best counter to Hero $HERO : Illidan, Kerrigan, Nova, Alarak"
+fi
+if [ "$HERO" = "23" ]
+then
+        echo "The best counter to Hero $HERO : Thrall, Brightwing, Li Li, Johanna"
+fi
+if [ "$HERO" = "24" ]
+then
+        echo "The best counter to Hero $HERO : Nova, Samuro, Kerrigan, Li Ming"
+fi
+if [ "$HERO" = "25" ]
+then
+        echo "The best counter to Hero $HERO : Leoric, Raynor, Zarya, Falstad"
+fi
+if [ "$HERO" = "26" ]
+then
+        echo "The best counter to Hero $HERO : Nova, Chen, Tracer, Zeratul"
+fi
+if [ "$HERO" = "27" ]
+then
+        echo "The best counter to Hero $HERO : Anub'arak, Falstad, Genji, Illidan, Leoric, Sonya"
+fi
+if [ "$HERO" = "28" ]
+then
+        echo "The best counter to Hero $HERO : Brightwing, The Butcher, Lunara, Thrall"
+fi
+if [ "$HERO" = "29" ]
+then
+        echo "The best counter to Hero $HERO : The Butcher, Chen, Thrall, Raynor"
+fi
+if [ "$HERO" = "30" ]
+then
+        echo "The best counter to Hero $HERO : Brightwing, Valla, Jaina, Sonya"
+fi
+if [ "$HERO" = "31" ]
+then
+        echo "The best counter to Hero $HERO : Nova, Lunara, Tracer, Zeratul"
+fi
+if [ "$HERO" = "32" ]
+then
+        echo "The best counter to Hero $HERO : Tracer, Lunara, Muradin, Samuro"
+fi
+if [ "$HERO" = "33" ]
+then
+        echo "The best counter to Hero $HERO : Nova, Valeera, Zeratul, The Butcher, Varian, Arthas"
+fi
+if [ "$HERO" = "34" ]
+then
+        echo "The best counter to Hero $HERO : Nova, Zeratul, Chen, Tracer"
+fi
+if [ "$HERO" = "35" ]
+then
+        echo "The best counter to Hero $HERO : Illidan, Tracer, Alarak, Stitches"
+fi
+if [ "$HERO" = "36" ]
+then
+        echo "The best counter to Hero $HERO : Lunara, Genji, Sonya, Valla"
+fi
+if [ "$HERO" = "37" ]
+then
+        echo "The best counter to Hero $HERO : Tracer, Lunara, Nova, Gul'dan"
+fi
+if [ "$HERO" = "38" ]
+then
+        echo "The best counter to Hero $HERO : Johanna, Tychus, Valla, Illidan"
+fi
+if [ "$HERO" = "39" ]
+then
+        echo "The best counter to Hero $HERO : Everyone!"
+fi
+if [ "$HERO" = "40" ]
+then
+        echo "The best counter to Hero $HERO : Lunara, Guldan, Illidan, The Butcher"
+fi
+if [ "$HERO" = "41" ]
+then
+        echo "The best counter to Hero $HERO : Zeratul, Tassadar, The Butcher, Chen"
+fi
+if [ "$HERO" = "42" ]
+then
+        echo "The best counter to Hero $HERO : Nova, Valeera, Zeratul, Varian, The Butcher, Lunara"
+fi
+if [ "$HERO" = "43" ]
+then
+        echo "The best counter to Hero $HERO : Lunara, Raynor, Tychus, Varian"
+fi
+if [ "$HERO" = "44" ]
+then
+        echo "The best counter to Hero $HERO : Lunara, Gul'dan, Zarya, Thrall "
+fi
+if [ "$HERO" = "45" ]
+then
+        echo "The best counter to Hero $HERO : Thrall, Kael'thas, The Butcher, Kerrigan"
+fi
+if [ "$HERO" = "46" ]
+then
+        echo "The best counter to Hero $HERO : Chen, Cho'gall, Lunara, Tychus"
+fi
+if [ "$HERO" = "47" ]
+then
+        echo "The best counter to Hero $HERO : Tassadar, Li Li, Johanna, Sylvanas"
+fi
+if [ "$HERO" = "48" ]
+then
+        echo "The best counter to Hero $HERO : Sonya, Illidan, The Butcher, Tyrael"
+fi
+if [ "$HERO" = "49" ]
+then
+        echo "The best counter to Hero $HERO : Chen, Tychus, Malfurion, Brightwing"
+fi
+if [ "$HERO" = "50" ]
+then
+        echo "The best counter to Hero $HERO : Zarya, Tychus, Leoric, Valla"
+fi
+if [ "$HERO" = "51" ]
+then
+        echo "The best counter to Hero $HERO : Artanis, Genji, Nova, Valeera"
+fi
+
+if [ "$HERO" = "52" ]
+then
+        echo "The best counter to Hero $HERO : Zagara, Gul'dan, Illidan, Zarya"
+fi
+
+if [ "$HERO" = "53" ]
+then
+        echo "The best counter to Hero $HERO : Lunara, The Butcher, Tracer, Li Ming"
+fi
+
+if [ "$HERO" = "54" ]
+then
+        echo "The best counter to Hero $HERO : Illidan, Tracer, Tychus, Brightwing"
+fi
+
+if [ "$HERO" = "55" ]
+then
+        echo "The best counter to Hero $HERO : Nova, Zeratul, Falstad"
+fi
+if [ "$HERO" = "56" ]
+then
+        echo "The best counter to Hero $HERO : Brightwing, Chen, The Butcher, Tracer"
+fi
+if [ "$HERO" = "57" ]
+then
+        echo "The best counter to Hero $HERO : Valla, Raynor, Lunara, Zagara"
+fi
+if [ "$HERO" = "58" ]
+then
+        echo "The best counter to Hero $HERO : Samuro, Sylvanas, Lunara, Li Ming"
+fi
+if [ "$HERO" = "59" ]
+then
+        echo "The best counter to Hero $HERO : Tychus, Lunara, The Butcher"
+fi
+if [ "$HERO" = "60" ]
+then
+        echo "The best counter to Hero $HERO : The Butcher, Tracer, Falstad, Sylvanas"
+fi
+if [ "$HERO" = "61" ]
+then
+        echo "The best counter to Hero $HERO : Li Ming, Raynor, Lunara, Tracer"
+fi
+if [ "$HERO" = "62" ]
+then
+        echo "The best counter to Hero $HERO : Tassadar, Varian, The Butcher, Lunara"
+fi
+if [ "$HERO" = "63" ]
+then
+        echo "The best counter to Hero $HERO : Kael'thas, Samuro, Gul'dan, Johanna"
+fi
+if [ "$HERO" = "64" ]
+then
+        echo "The best counter to Hero $HERO : Alarak, Thrall, Samuro, Raynor"
+fi
+if [ "$HERO" = "65" ]
+then
+        echo "The best counter to Hero $HERO : Zagara, Lunara, Sylvanas, Tracer"
+fi
+if [ "$HERO" = "66" ]
+then
+        echo "The best counter to Hero $HERO : Sonya, Gul'dan, Chen, Illidan"
+fi
+if [ "$HERO" = "67" ]
+then
+        echo "The best counter to Hero $HERO : Tychus, Rexxar, Alarak, The Butcher"
+fi
+if [ "$HERO" = "68" ]
+then
+        echo "The best counter to Hero $HERO : Tassadar, Jaina, Raynor, Johanna"
+fi
+if [ "$HERO" = "69" ]
+then
+        echo "The best counter to Hero $HERO : The Butcher, Varian, Lunara, Thrall"
+fi
+
+
+
